@@ -1,0 +1,100 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  min-height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px 25px;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.navbarItems {
+  display: none;
+}
+
+.hamburger {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.hamburger:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
+}
+
+.headerBg {
+  height: 90vh;
+  justify-content: left;
+  background-image: url(./Assets/images/headerMobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-bottom-left-radius: 20%;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  height: 95%;
+  padding: 0 15px;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  width: 75%;
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.connectBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.connectTitle {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.smm-icons {
+  display: flex;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+
+.smm-icons img {
+  height: 20px;
+}
+
+.smm-icons li {
+  padding-right: 20px;
+}
