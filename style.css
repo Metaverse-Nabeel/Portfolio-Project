@@ -1,28 +1,28 @@
 .navbar {
   position: sticky;
-  top: 0px;
+  top: 0;
   min-height: 7vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #fff;
   padding: 5px 25px;
 }
 
-.logo{
-  font-family: 'Poppins';
+.logo {
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .navbarItems {
   display: none;
 }
 
-.hamburger{
+.hamburger {
   width: 24px;
   height: 24px;
   cursor: pointer;
@@ -39,7 +39,7 @@
   background-image: url(./Assets/images/headerMobile.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-color: #FFFFFF;
+  background-color: #fff;
   border-bottom-left-radius: 20%;
 }
 
@@ -49,26 +49,26 @@
   gap: 20px;
   flex-direction: column;
   height: 95%;
-  padding: 0px 15px;
+  padding: 0 15px;
 }
 
 .title {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: #172B4D;
-width: 75%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  width: 75%;
 }
 
 .description {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #344563;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .connectBox {
@@ -77,12 +77,12 @@ color: #344563;
 }
 
 .connectTitle {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .smm-icons {
