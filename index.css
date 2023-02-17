@@ -16,3 +16,17 @@ li {
   list-style: none;
   cursor: pointer;
 }
+
+li:hover {
+  transform: scale(1.1);
+  transition: all 0.4;
+}
+
+i {
+  cursor: pointer;
+}
+
+i:hover {
+  transform: scale(1.2);
+  transition: all 0.5;
+}
