@@ -43,6 +43,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Mobile First website made using Figma Design]**
+- **[Shows Animations on Hover like Scale-up and color changes]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -117,7 +118,7 @@ You can deploy this project using GitHub Pages.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [Contact-Form] **[Adding the contact form for the users.]**
-- [Gallery-Section] **[Adding the Gallery Section for the users.]**
+- [Desktop-Version] **[Making the desktop version for the users.]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
