@@ -209,10 +209,7 @@
 }
 
 .tag {
-  /* display: flex; */
   float: left;
-  flex-direction: row;
-  align-items: center;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
