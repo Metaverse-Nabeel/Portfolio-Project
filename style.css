@@ -437,7 +437,6 @@
 .contactBg {
   background-color: #6070ff;
   border-top-left-radius: 75px;
-  height: 100%;
   background-image: url(./Assets/images/contactForm_Bg_mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -456,6 +455,7 @@
   text-align: center;
   gap: 20px;
   padding: 0 35px;
+  margin-top: 90px;
 }
 
 .contactTitle {
@@ -483,9 +483,9 @@
 .contactMain {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
   gap: 15px;
+  margin: 0 0 15px 25px;
 }
 
 .inputClass {
@@ -547,6 +547,7 @@
 .submitBtn {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   padding: 12px 16px;
   background: #fff;
@@ -559,6 +560,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #6070ff;
+  width: 50%;
 }
 
 .submitBtn:hover {
