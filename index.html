@@ -292,5 +292,46 @@
         </ul>
       </div>
     </section>
+    <section class="contactForm">
+      <div class="contactBg">
+        <div class="contactTop">
+          <h3 class="contactTitle">Contact me</h3>
+          <p class="contactDesc">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+        </div>
+        <form
+          class="contactMain"
+          action="https://formspree.io/f/xgebklke"
+          method="post"
+        >
+          <input
+            class="inputClass"
+            type="text"
+            name="user-name"
+            placeholder="Enter name..."
+            maxlength="30"
+            required
+          />
+          <input
+            class="inputClass"
+            type="email"
+            name="user-email"
+            placeholder="Enter e-mail..."
+            required
+          />
+          <textarea
+            class="textareaClass"
+            name="user-message"
+            maxlength="500"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
+          <button class="submitBtn" type="submit">Get in touch</button>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
