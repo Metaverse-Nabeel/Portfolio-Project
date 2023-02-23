@@ -18,6 +18,11 @@
   color: #6070ff;
 }
 
+.logo:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
+}
+
 .navbarItems {
   display: none;
 }
@@ -730,6 +735,8 @@
   .card:hover {
     cursor: pointer;
     border: 1px solid #6070ff;
+    transform: scale(1.1);
+    transition: all 0.3s;
   }
 
   .portfolioPic1 {
