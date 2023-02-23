@@ -18,6 +18,11 @@
   color: #6070ff;
 }
 
+.logo:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
+}
+
 .navbarItems {
   display: none;
 }
