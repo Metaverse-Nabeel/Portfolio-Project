@@ -730,6 +730,8 @@
   .card:hover {
     cursor: pointer;
     border: 1px solid #6070ff;
+    transform: scale(1.1);
+    transition: all 0.3s;
   }
 
   .portfolioPic1 {
