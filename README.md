@@ -43,6 +43,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Mobile First website made using Figma Design]**
+- **[Shows Animations on Hover like Scale-up and color changes]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,6 +102,7 @@ To run tests, run the following command: Not Applicable
 ### Deployment
 
 You can deploy this project using GitHub Pages.
+Link: https://metaverse-nabeel.github.io/Portfolio-Project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +119,7 @@ You can deploy this project using GitHub Pages.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [Contact-Form] **[Adding the contact form for the users.]**
-- [Gallery-Section] **[Adding the Gallery Section for the users.]**
+- [Desktop-Version] **[Making the desktop version for the users.]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -147,6 +149,6 @@ I would like to thank Microverse for providing me this awesome learning opportun
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
