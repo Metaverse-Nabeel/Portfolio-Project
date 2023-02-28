@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] (Not deployed)
+- [Live Demo Link](https://metaverse-nabeel.github.io/Portfolio-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +101,7 @@ To run tests, run the following command: Not Applicable
 
 ### Deployment
 
-You can deploy this project using GitHub Pages.
+This project is deployed using GitHub Pages.
 Link: https://metaverse-nabeel.github.io/Portfolio-Project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
