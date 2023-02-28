@@ -102,6 +102,7 @@ To run tests, run the following command: Not Applicable
 ### Deployment
 
 You can deploy this project using GitHub Pages.
+Link: https://metaverse-nabeel.github.io/Portfolio-Project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
