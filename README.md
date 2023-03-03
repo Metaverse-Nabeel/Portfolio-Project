@@ -49,9 +49,9 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Loom Demo <a name="Loom-demo"></a>
 
-- [Live Demo Link](https://metaverse-nabeel.github.io/Portfolio-Project/)
+- [Loom Demo Link](https://www.loom.com/share/3da5e1292bff4b61a0e990eafc54d910)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +102,8 @@ To run tests, run the following command: Not Applicable
 ### Deployment
 
 This project is deployed using GitHub Pages.
-Link: https://metaverse-nabeel.github.io/Portfolio-Project/
+
+- [Deployment Link](https://metaverse-nabeel.github.io/Portfolio-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
