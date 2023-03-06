@@ -87,6 +87,11 @@
   transition: all 0.7s;
 }
 
+.blurred_intro {
+  z-index: -1;
+  position: relative;
+}
+
 .headerBg {
   height: 90vh;
   justify-content: left;
@@ -105,6 +110,7 @@
   flex-direction: column;
   height: 95%;
   padding: 0 15px;
+  
 }
 
 .title {

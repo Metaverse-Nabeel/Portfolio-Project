@@ -3,6 +3,7 @@ let closeBtn = document.querySelector(".closeBtn");
 let navbarItems = document.querySelector(".navbarItems");
 let desktopNavbar = document.querySelector(".desktopNavbar");
 let navbar = document.querySelector(".navbar");
+let intro= document.querySelector(".intro");
 
 hamburger.addEventListener("click", function () {
     navbarItems.classList.remove("hide");
@@ -11,6 +12,7 @@ hamburger.addEventListener("click", function () {
     navbar.classList.add("overlay");
     hamburger.classList.add("hide");
     closeBtn.classList.remove("hide");
+    intro.classList.add("blurred_intro")
 })
 
 closeBtn.addEventListener("click", function () {
@@ -20,5 +22,6 @@ closeBtn.addEventListener("click", function () {
     navbar.classList.remove("overlay");
     hamburger.classList.remove("hide");
     closeBtn.classList.add("hide");
+    intro.classList.remove("blurred_intro");
 })
 
