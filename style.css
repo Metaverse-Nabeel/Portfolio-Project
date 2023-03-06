@@ -23,14 +23,63 @@
   transition: all 0.7s;
 }
 
-.navbarItems {
-  display: none;
+.overlay {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(5px);
+}
+
+.mobileNavbar {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  font-size: xx-large;
+  width: 75%;
+  position: absolute;
+  top: 70px;
+}
+
+.mobileNavbar ul li a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.mobileNavbarItems {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .hamburger {
   width: 24px;
   height: 24px;
   cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.closeBtn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
 }
 
 .hamburger:hover {
