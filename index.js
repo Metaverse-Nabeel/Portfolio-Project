@@ -22,3 +22,12 @@ closeBtn.addEventListener('click', () => {
   closeBtn.classList.add('hide');
   intro.classList.remove('blurred_intro');
 });
+navbarItems.addEventListener('click', () => {
+  navbarItems.classList.add('hide');
+  navbarItems.classList.remove('mobileNavbarItems');
+  desktopNavbar.classList.remove('mobileNavbar');
+  navbar.classList.remove('overlay');
+  hamburger.classList.remove('hide');
+  closeBtn.classList.add('hide');
+  intro.classList.remove('blurred_intro');
+});

@@ -114,6 +114,11 @@ This project is deployed using GitHub Pages.
 - GitHub: [@Metaverse-Nabeel](https://github.com/Metaverse-Nabeel)
 - LinkedIn: [@nabeel129](https://www.linkedin.com/in/nabeel129/)
 
+👤 **@EddxSotz**
+
+- GitHub: [@EddxSotz](https://github.com/EddxSotz )
+- LinkedIn: [@EddxSotz](https://www.linkedin.com/in/EddxSotz/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

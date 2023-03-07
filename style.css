@@ -72,6 +72,7 @@
 }
 
 .closeBtn {
+  margin-top: -45px;
   width: 30px;
   height: 30px;
   cursor: pointer;
