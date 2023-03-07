@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="./index.js" defer></script>
     <title>Portfolio-Project</title>
   </head>
 
@@ -17,11 +18,16 @@
     <header class="navbar">
       <a class="logo" href="#">Nabeel Ahmed</a>
       <nav class="desktopNavbar">
-        <ul class="navbarItems">
-          <li><a href="#">Portoflio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="navbarItems hide">
+          <li><a href="#portfolio">Portoflio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <img
+          class="closeBtn"
+          src="./Assets/images/closeBtn.svg"
+          alt="closeBtn"
+        />
         <img class="hamburger" src="./Assets/images/bars.svg" alt="hamburger" />
       </nav>
     </header>
@@ -77,7 +83,7 @@
         </div>
       </div>
     </section>
-    <section class="worksCards">
+    <section class="worksCards" id="portfolio">
       <div class="card" id="card1">
         <div class="portfolioPic portfolioPic1"></div>
         <div class="workDescription">
@@ -200,7 +206,7 @@
         </div>
       </div>
     </section>
-    <section class="aboutMyself">
+    <section class="aboutMyself" id="about">
       <div class="aboutMe">
         <h2 class="aboutTitle">
           About <br />
@@ -251,14 +257,16 @@
           </ul>
         </div>
         <div class="aboutBtn">
-          <button class="resumeBtn" aria-label="Get-resume">Get my resume</button>
+          <button class="resumeBtn" aria-label="Get-resume">
+            Get my resume
+          </button>
         </div>
       </div>
       <div class="myStack">
         <ul class="stackCategories">
           <li class="skillsStack">
             <span class="langName">Languages</span>
-            <i class="fa fa-angle-down" style="font-size: 24px"></i>
+            <i class="fa fa-angle-down sizing"></i>
           </li>
           <div class="langList">
             <li class="lang">
@@ -282,16 +290,16 @@
           </div>
           <li class="skillsStack borderBottom">
             <span class="langName">Frameworks</span>
-            <i class="fa fa-angle-right" style="font-size: 24px"></i>
+            <i class="fa fa-angle-right sizing"></i>
           </li>
           <li class="skillsStack borderBottom">
             <span class="langName">Skills</span>
-            <i class="fa fa-angle-right" style="font-size: 24px"></i>
+            <i class="fa fa-angle-right sizing"></i>
           </li>
         </ul>
       </div>
     </section>
-    <section class="contactForm">
+    <section class="contactForm" id="contact">
       <div class="contactBg">
         <div class="contactTop">
           <h3 class="contactTitle">Contact me</h3>
@@ -331,7 +339,9 @@
             placeholder="Write your message here..."
             required
           ></textarea>
-          <button class="submitBtn" type="submit" aria-label="Submit-form">Get in touch</button>
+          <button class="submitBtn" type="submit" aria-label="Submit-form">
+            Get in touch
+          </button>
         </form>
       </div>
     </section>

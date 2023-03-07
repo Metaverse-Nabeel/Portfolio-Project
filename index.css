@@ -19,7 +19,7 @@ li {
 
 li:hover {
   transform: scale(1.1);
-  transition: all 0.4;
+  transition: all 0.4s;
 }
 
 i {
@@ -28,5 +28,5 @@ i {
 
 i:hover {
   transform: scale(1.2);
-  transition: all 0.5;
+  transition: all 0.5s;
 }

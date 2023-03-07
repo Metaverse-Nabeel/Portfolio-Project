@@ -7,7 +7,18 @@
         "stylelint-csstree-validator"
     ],
     "rules": {
-        "at-rule-no-unknown": null,
+        "at-rule-no-unknown": [
+            true,
+            {
+                "ignoreAtRules": [
+                    "tailwind",
+                    "apply",
+                    "variants",
+                    "responsive",
+                    "screen"
+                ]
+            }
+        ],
         "scss/at-rule-no-unknown": [
             true,
             {
@@ -19,13 +30,15 @@
                     "screen"
                 ]
             }
-        ]
+        ],
+        "csstree/validator": true
     },
-    "csstree/validator": true,
     "ignoreFiles": [
         "build/**",
         "dist/**",
         "**/reset*.css",
-        "**/bootstrap*.css"
+        "**/bootstrap*.css",
+        "**/*.js",
+        "**/*.jsx"
     ]
 }
