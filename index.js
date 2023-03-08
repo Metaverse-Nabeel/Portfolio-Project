@@ -35,7 +35,7 @@ const data = [
   {
     projectTitle: 'Tonic',
     imageURL: './Assets/images/portfolio-cards/portfolio_card1_desktop.svg',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. ',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby on Rails'],
     seeLive: 'https://metaverse-nabeel.github.io/Portfolio-Project/',
     sourceCode: 'https://github.com/Metaverse-Nabeel/Portfolio-Project',
@@ -43,7 +43,7 @@ const data = [
   {
     projectTitle: 'Multi-Post Stories',
     imageURL: './Assets/images/portfolio-cards/portfolio_card2_desktop.svg',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby on Rails'],
     seeLive: 'https://metaverse-nabeel.github.io/Portfolio-Project/',
     sourceCode: 'https://github.com/Metaverse-Nabeel/Portfolio-Project',
@@ -51,7 +51,7 @@ const data = [
   {
     projectTitle: 'Facebook 360',
     imageURL: './Assets/images/portfolio-cards/portfolio_card3_desktop.svg',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby on Rails'],
     seeLive: 'https://metaverse-nabeel.github.io/Portfolio-Project/',
     sourceCode: 'https://github.com/Metaverse-Nabeel/Portfolio-Project',
@@ -59,7 +59,7 @@ const data = [
   {
     projectTitle: 'Uber Navigation',
     imageURL: './Assets/images/portfolio-cards/portfolio_card4_desktop.svg',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JS', 'Ruby on Rails'],
     seeLive: 'https://metaverse-nabeel.github.io/Portfolio-Project/',
     sourceCode: 'https://github.com/Metaverse-Nabeel/Portfolio-Project',
