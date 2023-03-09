@@ -329,36 +329,49 @@
           method="post"
           id="signup"
         >
-          <label for="user-name" class="labelClass">User name</label>
+          <label for="userName" class="labelClass">User name</label>
           <input
             class="inputClass"
             type="text"
-            name="user-name"
+            name="userName"
             placeholder="Enter name..."
             maxlength="30"
             required
+            id="userName"
           />
-          <label for="user-email" class="labelClass">User email</label>
+          <label for="email" class="labelClass">User email</label>
           <input
             class="inputClass"
             type="email"
-            name="user-email"
+            name="email"
             placeholder="Enter e-mail..."
             id="email"
             required
+            id="email"
           />
           <p id="errorMsg"></p>
           <label for="textarea" class="labelClass">Textarea</label>
           <textarea
             class="textareaClass"
-            name="user-message"
+            name="textarea"
             maxlength="500"
             placeholder="Write your message here..."
             required
+            id="textarea"
           ></textarea>
-          <button class="submitBtn" type="submit" aria-label="Submit-form">
-            Get in touch
-          </button>
+          <div class="btnsGroup">
+            <button class="submitBtn" type="submit" aria-label="Submit-form">
+              Get in touch
+            </button>
+            <button
+              class="resetBtn"
+              type="reset"
+              aria-label="Reset-form"
+              id="reset"
+            >
+              Reset Form
+            </button>
+          </div>
         </form>
       </div>
     </section>
