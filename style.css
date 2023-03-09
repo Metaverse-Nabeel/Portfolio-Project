@@ -1151,3 +1151,7 @@
   line-height: 20px;
   color: white;
 }
+
+.inputClass:invalid {
+  border-color: red;
+}
