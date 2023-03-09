@@ -327,6 +327,7 @@
           class="contactMain"
           action="https://formspree.io/f/xgebklke"
           method="post"
+          id="signup"
         >
           <label for="user-name" class="labelClass">User name</label>
           <input
@@ -343,8 +344,10 @@
             type="email"
             name="user-email"
             placeholder="Enter e-mail..."
+            id="email"
             required
           />
+          <p id="errorMsg"></p>
           <label for="textarea" class="labelClass">Textarea</label>
           <textarea
             class="textareaClass"

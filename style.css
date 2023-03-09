@@ -1142,3 +1142,12 @@
 .sizing {
   font-size: 24px;
 }
+
+#errorMsg {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: white;
+}
