@@ -129,7 +129,7 @@ const email = document.getElementById('email');
 const textarea = document.getElementById('textarea');
 const reset = document.getElementById('reset');
 const form = document.getElementById('signup');
-form.addEventListener('submit', () => {
+form.addEventListener('input', () => {
   const formData = {
     name: user.value,
     email: email.value,
