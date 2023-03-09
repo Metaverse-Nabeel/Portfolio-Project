@@ -124,11 +124,40 @@ document.querySelectorAll('.clickBtn').forEach((occurence) => {
     });
   });
 });
+
+// show a message with a type of the input
+const showMessage = (message) => {
+  const msg = document.getElementById('errorMsg');
+  msg.innerText = message;
+};
+const validateEmail = (input) => {
+  // validate email format
+  const emailRegex = /^[a-z0-9]+@[^\s]+\.[^\s]+$/g;
+  const email = input.value.trim();
+  if (!emailRegex.test(email)) {
+    return false;
+  }
+  return true;
+};
+const form = document.querySelector('#signup');
+const EMAIL_INVALID = 'Please enter a correct email address format';
+form.addEventListener('submit', (event) => {
+  // stop form submission
+  const email = document.getElementById('email');
+  event.preventDefault();
+  // validate the form
+  const emailValid = validateEmail(email);
+  // if valid, submit the form.
+  if (emailValid) {
+    form.submit();
+  } else {
+    showMessage(EMAIL_INVALID);
+  }
+});
 const user = document.getElementById('userName');
 const email = document.getElementById('email');
 const textarea = document.getElementById('textarea');
 const reset = document.getElementById('reset');
-const form = document.getElementById('signup');
 form.addEventListener('input', () => {
   const formData = {
     name: user.value,
