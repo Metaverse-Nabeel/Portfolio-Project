@@ -1154,6 +1154,8 @@
 
 .inputClass:invalid {
   border-color: red;
+}
+
 .btnsGroup {
   display: flex;
   justify-content: center;
