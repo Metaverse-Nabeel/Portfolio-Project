@@ -1142,3 +1142,37 @@
 .sizing {
   font-size: 24px;
 }
+
+.btnsGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 40%;
+}
+
+.resetBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  width: 50%;
+}
+
+.resetBtn:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #6070ff;
+  border: 1px solid #fff;
+}
