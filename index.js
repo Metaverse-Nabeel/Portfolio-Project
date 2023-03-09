@@ -124,3 +124,28 @@ document.querySelectorAll('.clickBtn').forEach((occurence) => {
     });
   });
 });
+const user = document.getElementById('userName');
+const email = document.getElementById('email');
+const textarea = document.getElementById('textarea');
+const reset = document.getElementById('reset');
+const form = document.getElementById('signup');
+form.addEventListener('input', () => {
+  const formData = {
+    name: user.value,
+    email: email.value,
+    message: textarea.value,
+  };
+  if (formData) {
+    localStorage.setItem('contactForm', JSON.stringify(formData));
+  }
+});
+const storedData = localStorage.getItem('contactForm');
+if (storedData) {
+  const tempData = JSON.parse(storedData);
+  user.value = tempData.name;
+  email.value = tempData.email;
+  textarea.value = tempData.message;
+}
+reset.addEventListener('click', () => {
+  localStorage.removeItem('contactForm');
+});
